@@ -88,7 +88,7 @@ body {
         flex-basis: calc((100%-60px)/3);
         gap: 30px;
         padding: 0;
-        margin: 0;
+        margin: 50px 0 0 0;
     }
  img {
     display: block;
@@ -184,7 +184,7 @@ body {
     
     }
 .button-filter-whole {
-    margin-top: 94px;
+    margin: 0;
     padding: 6px 25px;
     min-width: 73px;
     height: 38px;
@@ -202,7 +202,7 @@ body {
 
 .button-filter {
     
-    margin-top: 94px;
+    margin: 0;
     padding: 6px 22px;
     min-width: 73px;
     height: 38px;
