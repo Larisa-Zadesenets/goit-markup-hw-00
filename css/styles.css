@@ -67,7 +67,7 @@ body {
     .list {
         display: flex;
         justify-content: center;
-        gap: 30px;
+        gap: 8px;
         margin-top: 0;
         margin-bottom: 0;
     }
@@ -181,24 +181,7 @@ body {
     padding: 10px 32px;
     min-width: 216px;
     height: 50px;
-    
     }
-.button-filter-whole {
-    margin: 0;
-    padding: 6px 25px;
-    min-width: 73px;
-    height: 38px;
-    background-color: var(--accent-color);
-    color: var(--hero-color);
-    border: 2px solid transparent;
-    border-radius: 4px;
-    cursor: pointer;
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62; 
-    letter-spacing: 0.03em; 
-}
 
 .button-filter {
     
@@ -217,10 +200,11 @@ body {
     line-height: 1.62; 
     letter-spacing: 0.03em; 
 }
-.button-filter-whole:hover, .button-filter-whole:focus, 
 .button-filter:hover, .button-filter:focus {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    background-color: var(--accent-color);
+    color: var(--hero-color);
 }
 .section-title {
     margin: 0;
@@ -235,7 +219,13 @@ body {
 .section-features {
     margin: 0;
     padding: 94px 0;
+    background-color: var(--background-features-color);
     }
+.section-features-title{
+    margin: 0;
+    padding: 0 0 94px 0;
+    background-color: var(--background-features-color);
+}   
 .features-title {
     margin-bottom: 0;
     color: var(--title-text-color);
@@ -361,20 +351,26 @@ body {
     fill:var(--accent-color);
     border-color: var(--accent-color);
 }
+.client-icon {
+    width: 106px; 
+    height: 60px; 
+   
+}
 .section-portfolio {
-    
     background-color: var(--background-features-color);
     border: var(--background-features-color);
     padding: 94px 0;
 }
 .works:hover {
-    background: var(--hero-color);
-    border: 1px solid #EEEEEE;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .works {
-background:var(--hero-color);  
-list-style: none;
+    background:var(--hero-color);  
+    border: 1px solid #EEEEEE;
+    list-style: none;
+}
+.works-title {
+    padding: 20px 24px;
 }
 .portfolio-title {
     margin-top: 20px;
@@ -408,7 +404,7 @@ list-style: none;
     }
 .footer-site-nav-list {
     list-style: none;
-    padding: 0;
+    padding: 20px 0 0 0;
     margin: 0;
 }
 .footer-container {
@@ -447,6 +443,7 @@ list-style: none;
 .contact {
     font-style: normal;
     text-decoration: none;
+    padding-top: 9px;
     color:rgba(255, 255, 255, 0.6);
     font-size: 14px;
     line-height: 1.71;
