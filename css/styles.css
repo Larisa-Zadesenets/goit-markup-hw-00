@@ -381,7 +381,7 @@ img {
     background:var(--hero-color);  
     border: 1px solid #EEEEEE;
     list-style: none;
-  
+    flex-basis: calc((100%-60px)/3);
 }
 .works-title {
     padding: 20px 24px;
